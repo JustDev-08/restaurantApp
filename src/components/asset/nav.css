@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #333333;
+}
+.navbar-con {
+    display: flex;
+    justify-content: space-around;
+}
+.list ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.list ul a li{
+     margin : 0 10px;
+     color : white
+}
+.list ul a{
+    margin : 0 20px;
+    color : white;
+    text-decoration:none;
+}
+.list ul a li:hover{
+    color:rgb(255, 164, 60)
+}
+
+
+.logo {
+    display: flex;
+    color : white;
+    align-items: center;
+     
+}
+.logo img{
+    height: 100%;
+    transition: height 0.2s ease;
+}
+.logo img:hover {
+    height: 110%;
+}
+.logo p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin : 0 5px;
+    font-size: 18px;
+
+}

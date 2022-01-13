@@ -1,0 +1,47 @@
+.footer {
+    
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #333333;
+    margin-top : 20px;
+}
+
+.footer-con {
+    padding: 2px 40px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.us button {
+    border-radius: 20%;
+    border: none;
+    background-color: #333333;
+    color: white;
+    transition: background-color 0.4s ease;
+}
+.us button:hover {
+    border-radius: 20%;
+    border : 1px solid #333333;
+    background-color: white;
+    color:#333333;
+}
+
+.button-on{
+    border-radius: 20%;
+    border: none;
+    background-color: #333333;
+    color: white;
+    transition: background-color 0.4s ease;
+    position: fixed;
+    bottom: 2px;
+    right: 20px;
+}
+
+.button-on:hover {
+    border-radius: 20%;
+    border : 1px solid #333333;
+    background-color: white;
+    color:#333333;
+}
