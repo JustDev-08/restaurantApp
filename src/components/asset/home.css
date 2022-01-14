@@ -43,21 +43,6 @@
   height: 200px;
 }
 
-@media only screen and (max-width: 1100px) {
-  .icon img {
-    -webkit-box-shadow: 2px 8px 3px 6px rgba(0, 0, 0, 0.56);
-    box-shadow: 2px 8px 3px 6px rgba(0, 0, 0, 0.56);
-    border-radius: 30%;
-    width: 120px;
-    height: 100px;
-    transition: 0.4s ease;
-  }
-  .icon img:hover {
-    width: 140px;
-    height: 120px;
-  }
-}
-
 .content-text {
   display: flex;
   flex-direction: column;
@@ -116,7 +101,7 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
   .content-text h1 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: rgb(255, 137, 82);
@@ -130,22 +115,56 @@
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 50px;
   }
-}
-@media only screen and (max-width: 900px) {
-  .con {
+  .content {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .container {
+    height: 500px;
+    margin: 0 0px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .icon img {
+    -webkit-box-shadow: 2px 8px 3px 6px rgba(0, 0, 0, 0.56);
+    box-shadow: 2px 8px 3px 6px rgba(0, 0, 0, 0.56);
+    border-radius: 30%;
+    width: 120px;
+    height: 100px;
+    transition: 0.4s ease;
+  }
+  .icon img:hover {
+    width: 140px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  
+  
+  .textabout {
+    display: none;
+  }
+  .content {
     flex-direction: column;
+  }
+  .card {
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.83);
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.83);
+    border-radius: 10%;
+    background-color: white;
+    width: 80%;
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+
+  .con {
     align-items: center;
     padding: 5%;
     position: relative;
-  }
-  .cost {
-    background-color: rgb(255, 81, 0);
-    padding: 5px;
-    border-radius: 20%;
-    color: white;
-    position: absolute;
-    bottom: 160px;
-    right: 30px;
   }
 }

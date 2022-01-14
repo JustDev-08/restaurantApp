@@ -37,7 +37,7 @@ export default function Home() {
         <div className="content">
           {data !== null ? (
             data.map((e,i) => {
-                return <Card name={e.name} cost={e.cost + " บาท"} img={e.img} dis={e.dis} />
+                return <Card key={i} name={e.name} cost={e.cost + " บาท"} img={e.img} dis={e.dis} />
             })
           ) : (
             <div></div>
