@@ -8,7 +8,7 @@ export default function Home() {
   useEffect(() => {
     axios
       .get(
-        "https://script.google.com/macros/s/AKfycbxbcyjPAchV02CRY0SVslCtvGMlWpUhcKSSc8SGCm4D-ypXXciBHNBU5XzP0cQ9cnyH/exec"
+        "https://script.googleusercontent.com/macros/echo?user_content_key=H0_a9lukOoMNmGSZmZ7fN0PFm-n4j4m3aDyOYvhCUOFyb7dGbuF5BXk4Yo2kX21ZyStvIb-HjGcgy2_Jy6vb2Ykqjx-uZQurm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnLbyxt3QpmRsH3nS6i0AKRIAOvTIG7lubuTNFJjKuJmsEaFSp5Ek7vmXbATVSXt3NC4fSQWB5RRxtxXJXh5mdW2_2Ybj-VDT3A&lib=MnrSCXvqgbkTd7vKJ2CYbeEKkhXDGw_ZZ"
       )
       .then((res) => res.data)
       .then((data) => {
